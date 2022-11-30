@@ -57,7 +57,7 @@ let hour = 0;
 let sum = 0;
 
 function init() {
-  let moneyPerMinute = wealthValue / 600;
+  let moneyPerMinute = wealthValue / 3600;
   let intervalTimer = setInterval(tick, 1000);
   let intervalMoney = setInterval(() => {
     moneyTick(moneyPerMinute)
