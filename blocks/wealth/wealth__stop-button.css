@@ -3,6 +3,7 @@
   padding: 10px;
   background-color: #c1403d;
   transition: background-color 0.2s;
+  text-transform: uppercase;
 }
 
 .wealth__stop-button:hover {
