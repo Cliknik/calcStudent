@@ -1,0 +1,11 @@
+.wealth__stop-button {
+  border: none;
+  padding: 10px;
+  background-color: #c1403d;
+  transition: background-color 0.2s;
+}
+
+.wealth__stop-button:hover {
+  background-color: darkred;
+  cursor: pointer;
+}

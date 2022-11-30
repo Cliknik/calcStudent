@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заработок репетиторством</title>
+    <meta name="author" content="Никита Тамбовцев">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <h1 class="header__title">Keep calm and watch your wealth grow</h1>
+    </header>
+    <main class="content">
+      <div class="information">
+        <form class="information__form" id="wealth-form">
+          <label class="information__label" for="per-hour">Введи сколько стоит час:
+            <input class="information__input" type="text" placeholder="сюда" id="per-hour" name="per-hour" pattern="^[\d]+$" data-error-message="Можно вводить только цифры" required minlength="2" maxlength="5">
+            <span class="information__error-message per-hour-error"></span>
+          </label>
+          <button class="information__submit-button information__submit-button_inactive padding-fixer" type="submit" disabled>Сохранить</button>
+        </form>
+        <button class="information__start-button button-hidden padding-fixer" type="button">Стартуем!</button>
+      </div>
+      <div class="block_hidden wealth">
+        <div class="wealth__wrapper">
+          <div class="wealth__earnings">
+            <h2 class="margin-zero wealth__title">Ты уже заработал:</h2>
+            <p class="margin-zero wealth__counter" id="money"></p>
+          </div>
+          <div class="wealth__earnings">
+            <h2 class="margin-zero wealth__title">Времени прошло:</h2>
+            <p class="margin-zero wealth__counter" id="timer"> </p>
+          </div>
+        </div>
+        <button class="wealth__stop-button" type="button" id="stop">Закончить</button>
+        <button class="wealth__stop-button button-hidden" type="button" id="reset">Сбросить</button>
+      </div>
+    </main>
+  </div>
+<script src="index.js" type="module"></script>
+</body>
+</html>

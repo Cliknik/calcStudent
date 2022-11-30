@@ -1,0 +1,11 @@
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-around;
+  transition: 0.5s max-height, opacity 0.3s;
+  max-height: 120px;
+  margin-top: 20px;
+}
+

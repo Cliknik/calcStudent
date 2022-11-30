@@ -1,0 +1,77 @@
+@import "./vendor/normalize.css";
+@import "./vendor/font.css";
+
+@import "./blocks/header/header.css";
+
+@import './blocks/content/content.css';
+
+@import './blocks/information/information.css';
+@import './blocks/information/information__form.css';
+@import './blocks/information/information__input.css';
+@import './blocks/information/information__label.css';
+@import './blocks/information/information__start-button.css';
+@import './blocks/information/information__submit-button.css';
+@import './blocks/information/information__error-message.css';
+
+@import './blocks/wealth/wealth.css';
+@import './blocks/wealth/wealth__title.css';
+@import './blocks/wealth/wealth__stop-button.css';
+@import './blocks/wealth/wealth__earnings.css';
+@import './blocks/wealth/wealth__counter.css';
+@import './blocks/wealth/wealth__wrapper.css';
+
+.body {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #04060f;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  max-width: 80%;
+  background-color: #03353E;
+  min-height: 200px;
+  border-radius: 50px;
+  padding: 50px;
+  gap: 50px;
+  box-sizing: border-box;
+  margin: 180px auto 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.margin-zero {
+  margin: 0;
+}
+
+.button-hidden {
+  pointer-events: none;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+
+
+.block_hidden {
+  max-height: 0px;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.padding-fixer{
+  padding: 0 10px;
+}
+
+
+
+
+

@@ -1,0 +1,17 @@
+.wealth {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 400px;
+  margin-top: 20px;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.wealth_hidden {
+  overflow: hidden;
+  max-height: 0px;
+  visibility: hidden;
+  opacity: 0;
+}
+

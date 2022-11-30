@@ -1,0 +1,7 @@
+.information__label {
+  padding-right: 5px;
+  font-size: 21px;
+  font-weight: bold;
+  border-bottom: #c1403d 1px solid;
+  position: relative;
+}

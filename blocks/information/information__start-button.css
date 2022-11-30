@@ -1,0 +1,24 @@
+.information__start-button {
+  border: none;
+  background-color: inherit;
+  border-bottom: #c1403d 1px solid;
+  padding-left: 15px;
+  font-size: 1.5em;
+  max-height: 100px;
+  transition: max-height 1s, opacity 0.5s, visibility 0.1s;
+  opacity: 1;
+}
+
+.information__start-button:hover{
+  cursor: pointer;
+  border-bottom: darkred 1px solid;
+  box-shadow: 0px -5px 4px -1px rgba(214, 8, 44, 0.1) inset;
+}
+
+.information__start-button_hidden {
+  pointer-events: none;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+}

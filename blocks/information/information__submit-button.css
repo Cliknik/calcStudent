@@ -1,0 +1,30 @@
+.information__submit-button {
+  border: none;
+  background-color: inherit;
+  border-bottom: #c1403d 1px solid;
+  padding-left: 15px;
+  font-size: 21px;
+  color: black;
+  transition: font-weight 0.5s, color 0.1s;
+  box-sizing: content-box;
+  font-weight: bold;
+}
+
+.information__submit-button:hover{
+  cursor: pointer;
+  border-bottom: darkred 1px solid;
+  box-shadow: 0px -5px 4px -1px rgba(214, 8, 44, 0.1) inset;
+}
+
+.information__submit-button:active {
+  color: white;
+}
+
+
+.information__submit-button_inactive {
+  pointer-events: none;
+  color: grey;
+  border-bottom: #c1403d 1px dashed;
+  font-weight: normal;
+}
+
